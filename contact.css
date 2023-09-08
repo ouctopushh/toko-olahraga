@@ -1,0 +1,123 @@
+.header{
+    width: 100%;
+    background-color: rgb(42, 165, 97);
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+
+.wrapper{
+    background: white;
+    width: 50%;
+    padding: 2rem;
+    box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.28), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px rgb(0, 0, 0, 0.05);
+    margin-top: 50px;
+    margin-left: 340px;
+}
+
+h4{
+    background: rgb(27, 187, 134);
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    font-size: 50;  
+}
+
+form,
+input,
+textarea,
+button{
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group label{
+    display: block;
+    margin: 50px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    outline: 0%;
+    transition: border 0.15s;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 4.6rem;
+
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    background: rgb(27, 187, 134);
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 265px;
+    border-radius: 30px;
+}
+
+.submit:hover {
+    background: rgb(99, 167, 144) ;
+    color: black;
+}
+
+.kontak-form input[type="text"] :focus,
+.kontak-form input[type="email"] :focus,
+.kontak-form textarea :focus {
+    border: 1px solid green;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        background: white;
+        width: 80%;
+        padding: 2rem;
+        box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.28), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px rgb(0, 0, 0, 0.05);
+        margin-top: 50px;
+        margin-left: 47px;
+    }
+
+    .h4{
+        padding: 50px;
+    }
+
+    .submit {
+        background: rgb(27, 187, 134);
+        color: white;
+        font-weight: bold;
+        margin-top: 1rem;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        margin-left: 130px;
+        border-radius: 30px;
+    }
+
+    .submit:hover {
+        background: rgb(99, 167, 144) ;
+        color: black;
+    }
+
+    .form-group label{
+        display: block;
+        margin: 20px;
+    }
+}
